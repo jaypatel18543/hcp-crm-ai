@@ -431,3 +431,11 @@ textarea { resize: vertical; }
   from { transform: translateY(10px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
+
+/* Mat field input */
+.mat-field {
+  width: 100%; font-family: 'Inter', sans-serif; font-size: 13px;
+  color: var(--text-primary); background: transparent;
+  border: none; outline: none; padding: 4px 0;
+}
+.mat-field:focus { border-bottom: 1px solid var(--accent); }
